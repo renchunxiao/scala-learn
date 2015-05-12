@@ -1,0 +1,1 @@
+1. def getArray(n: Int): Array[Int] = {val a: scala.collection.mutable.ArrayBuffer[Int] = scala.collection.mutable.ArrayBuffer();val r = scala.util.Random; for(i <- 0 until n){a += (r.nextInt(n))}; a.toArray}
