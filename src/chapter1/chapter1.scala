@@ -1,4 +1,4 @@
-1. def signum(num: Int) = if (num == 0) 0 else if (num > 0) 1 else -1
+1. def signum(num: Int):Int = if (num == 0) 0 else if (num > 0) 1 else -1
 2. val a = {} a: Unit = () 所以 {} 是 Unit 类型，值是 ()
 3. 当 var x: Unit = () 这样定义的时候 x = y = 1 合法
 4. var x = 10;while(x >=0) { print(x); x = x-1}
